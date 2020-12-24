@@ -1,0 +1,28 @@
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
+}
+
+ul li a {
+    
+    display: inline-block;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.active {
+    
+    background-color: green;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+}

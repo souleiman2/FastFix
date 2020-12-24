@@ -5,6 +5,9 @@
   max-height: 600px;
   display: block;
   margin: auto;
+  box-shadow: 0 0 8px rgb(212,217,226);
+  padding : 30px;
+  margin-top: 20vh;
 }
 
 .container h1 {
@@ -15,13 +18,14 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
+  margin: 4px 2px;
 }
 
 .item1 {
   grid-row: 2;
 }
 
-.button {
+button {
   background-color: #f4511e;
   border: none;
   color: white;
@@ -34,12 +38,12 @@
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
+  width : 100%
 }
 
-.button:hover {
+button:hover {
   opacity: 1;
 }
-
 //start of the text_input css
 
 $primary: #11998e;
