@@ -1,37 +1,38 @@
 <!-- <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)"> -->
+<app-toolbar></app-toolbar>
 <form>
-  <div class="container">
-    <h1>LOGIN</h1>
-    <div class="form__group field">
-      <input
-        type="input"
-        class="form__field"
-        placeholder="Name"
-        name="name"
-        id="name"
-        required
-      />
-      <label for="name" class="form__label">Name</label>
+    <div class="container">
+        <h1>LOGIN</h1>
+        <div class="form__group field">
+            <input
+            type="input"
+            class="form__field"
+            placeholder="Name"
+            name="name"
+            id="name"
+            required
+            />
+            <label for="name" class="form__label">Name</label>
+        </div>
+        <div class="form__group field">
+            <input
+            type="input"
+            class="form__field"
+            placeholder="Name"
+            name="name"
+            id="name"
+            required
+            />
+            <label for="name" class="form__label">Password</label>
+        </div>
+        
+        <div class="grid-container">
+            <div class="item1">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+                <label for="vehicle1"> Remember me</label><br />
+            </div>
+        </div>
+        
+        <button>Submit</button>
     </div>
-    <div class="form__group field">
-      <input
-        type="input"
-        class="form__field"
-        placeholder="Name"
-        name="name"
-        id="name"
-        required
-      />
-      <label for="name" class="form__label">Password</label>
-    </div>
-
-    <div class="grid-container">
-      <div class="item1">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-        <label for="vehicle1"> Remember me</label><br />
-      </div>
-    </div>
-
-    <button>Submit</button>
-  </div>
 </form>
