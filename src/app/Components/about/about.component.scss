@@ -12,12 +12,18 @@ div.mission {
 
 h1 {
     
+    position: relative;
+    margin-left: 40%;
+    margin-right: 42%;
+    display: inline;
+    font-style: italic;
     line-height: 5;
+    background-color: gray;
+    border-radius: 10px
 }
 
 div * {
     
-    margin: 0;
     color: white;
     text-align: center;
     padding-left: 20px;
