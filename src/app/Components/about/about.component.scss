@@ -10,9 +10,16 @@ div.mission {
     height : calc(100vh - #{$toolbarHeight});
 }
 
+h1 {
+    
+    line-height: 5;
+}
+
 div * {
     
     margin: 0;
     color: white;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
