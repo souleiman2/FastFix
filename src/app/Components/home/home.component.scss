@@ -1,0 +1,22 @@
+div.panel1 {
+    
+    position: fixed;
+    background-image: url("../../../assets/test.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+div.section {
+    
+    position: relative;
+    margin: 10%;
+    margin-top: 15%;
+    margin-right: 40%;
+}
+
+div * {
+    color: black;
+}

@@ -3,11 +3,6 @@ a:hover {
     background-color: black;
 }
 
-a.active {
-    
-    background-color: green;
-}
-
 a {
     
     text-decoration: none;
@@ -36,7 +31,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #333;
+    background: #222;
+    border-style: double;
+    border-radius: 3px;
 }
 
 ul a {
