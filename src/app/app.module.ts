@@ -10,6 +10,8 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { AboutComponent } from './Components/about/about.component';
+import { PortraitCardComponent } from './Components/portrait-card/portrait-card.component';
+import { CustomCarouselComponent } from './Components/custom-carousel/custom-carousel.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +21,9 @@ import { AboutComponent } from './Components/about/about.component';
         FooterComponent,
         LoginComponent,
         RegisterComponent,
-        AboutComponent
+        AboutComponent,
+        PortraitCardComponent,
+        CustomCarouselComponent
     ],
     imports: [
         BrowserModule,
