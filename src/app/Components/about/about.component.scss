@@ -1,0 +1,18 @@
+$toolbarHeight: 60px;
+
+div.mission {
+    
+    background-image: url("../../../assets/about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height : calc(100vh - #{$toolbarHeight});
+}
+
+div * {
+    
+    margin: 0;
+    color: white;
+    text-align: center;
+}
