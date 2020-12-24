@@ -1,0 +1,31 @@
+$toolbarHeight: 60px;
+
+div.mission {
+    
+    background-image: url("../../../assets/about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height : calc(100vh - #{$toolbarHeight});
+}
+
+h1 {
+    
+    position: relative;
+    margin-left: 40%;
+    margin-right: 42%;
+    display: inline;
+    font-style: italic;
+    line-height: 5;
+    background-color: gray;
+    border-radius: 10px
+}
+
+div * {
+    
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
