@@ -1,6 +1,7 @@
 ul {
     
     list-style-type: none;
+    border: 0;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -13,16 +14,28 @@ ul li a {
     color: white;
 }
 
-a {
-    text-decoration: none;
+li {
+    
+    padding-right: 40px;
 }
 
-a.active {
+a:hover {
     
-    background-color: green;
+    background-color: black;
+}
+
+a {
+    
+    text-decoration: none;
     text-align: center;
     padding-top: 14px;
     padding-right: 16px;
     padding-bottom: 14px;
     padding-left: 16px;
+    background-color: transparent;
+}
+
+a.active {
+    
+    background-color: green;
 }
