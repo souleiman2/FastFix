@@ -1,46 +1,41 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row">
-          <div class="col container" *ngFor="let card of this.initData">
-            <app-portrait-card [card]="card"></app-portrait-card>
-          </div>
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col container" *ngFor="let card of this.initData">
+                    <app-portrait-card [card]="card"></app-portrait-card>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item" *ngFor="let cards of this.segregatedData">
-        <div class="row">
-          <div class="col container" *ngFor="let card of cards">
-            <app-portrait-card [card]="card"></app-portrait-card>
-          </div>
+        <div class="carousel-item" *ngFor="let cards of this.segregatedData">
+            <div class="row">
+                <div class="col container" *ngFor="let card of cards">
+                    <app-portrait-card [card]="card"></app-portrait-card>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <div class="arrowContainer leftArrow">
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
+        <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
     </div>
 
     <div class="arrowContainer rightArrow">
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-        
-     </a>
+        <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    
-   
-    
-  </div>
-  
+</div>

@@ -7,10 +7,9 @@ import { PORT_CARDS } from 'src/app/Interface/typesWorker';
     styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  readonly cards = PORT_CARDS;
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    readonly cards = PORT_CARDS;
+    constructor() { }
+    
+    ngOnInit(): void {
+    }
 }
