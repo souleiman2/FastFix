@@ -12,6 +12,7 @@ import { RegisterComponent } from './Components/register/register.component';
 import { AboutComponent } from './Components/about/about.component';
 import { PortraitCardComponent } from './Components/portrait-card/portrait-card.component';
 import { CustomCarouselComponent } from './Components/custom-carousel/custom-carousel.component';
+import { ProfilComponent } from './Components/profil/profil.component';
 
 @NgModule({
     declarations: [
@@ -23,7 +24,8 @@ import { CustomCarouselComponent } from './Components/custom-carousel/custom-car
         RegisterComponent,
         AboutComponent,
         PortraitCardComponent,
-        CustomCarouselComponent
+        CustomCarouselComponent,
+        ProfilComponent
     ],
     imports: [
         BrowserModule,

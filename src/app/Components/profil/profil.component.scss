@@ -1,0 +1,66 @@
+.upperContainer{
+    min-height : 600px;
+    max-height : 700px;
+    box-shadow: 0 0 8px rgb(212,217,226);
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.containerSection{
+    box-shadow: 0 0 8px rgb(212,217,226);
+    min-height : 300px;
+    width : 100%;
+    padding : 40px;
+    margin-bottom: 20px;
+}
+
+h4.sectionTitle{
+    text-decoration: underline;
+}
+
+h3{
+    margin : 5px;
+    text-align: center;
+}
+
+
+.upperBanner{
+    min-height : 200px;
+    background-color: gray;
+}
+
+.mainContainer{
+    width : 900px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.description{
+    width : 80%;
+    margin : auto;
+    transform: translateY(-20%);
+}
+
+.padder{
+    padding-left : 40px;
+    padding-right : 40px;
+    padding-top : 20px;
+}
+
+#profile{ 
+    transform: translateY(-50%);
+    position : relative;
+    top : -50%;
+    margin-left : auto;
+    margin-right: auto;
+    width : 160px;
+    height : 160px;
+    border-radius: 50%;
+    display: block;
+    border:solid;
+    border-style: solid;
+    border-width : 5px;
+    border-color: white;
+}
+
+
