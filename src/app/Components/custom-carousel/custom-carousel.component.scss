@@ -1,65 +1,69 @@
 .container {
-  position: relative;
-  color: white;
-  float: left;
-  height: 300px;
-  padding: 0;
-  margin: 5px;
+    position: relative;
+    color: white;
+    // float: left;
+    height: 300px;
+    padding: 0;
+    margin: 5px;
+}
+
+.row {
+    
+    margin: 0;
 }
 
 $circle-radius : 60px;
 
 .arrowContainer {
-  position: absolute;
-  top: 50%;
-  height: $circle-radius;
-  width: $circle-radius;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    height: $circle-radius;
+    width: $circle-radius;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 50%;
 }
 
 .leftArrow {
-  left: calc(5% - #{$circle-radius}/2);
+    left: calc(5% - #{$circle-radius}/2);
 }
 .leftArrow span {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -ms-transform: translate(-55%, -50%);
-  transform: translate(-55%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-55%, -50%);
+    transform: translate(-55%, -50%);
 }
 
 .rightArrow {
-  left: calc(95% - #{$circle-radius}/2);
+    left: calc(95% - #{$circle-radius}/2);
 }
 .rightArrow span {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -ms-transform: translate(-45%, -50%);
-  transform: translate(-45%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-45%, -50%);
+    transform: translate(-45%, -50%);
 }
 
 .carousel-inner {
-  width: 90%;
-  margin: auto;
+    width: 90%;
+    margin: auto;
 }
 
-$circle-radius: 60px;
 a {
-  display: block;
-  width: $circle-radius;
-  height: $circle-radius;
-  border-radius: $circle-radius;
-  background-color: black;
+    display: block;
+    width: $circle-radius;
+    height: $circle-radius;
+    border-radius: $circle-radius;
+    background-color: black;
 }
 
 span {
-  margin: auto;
+    margin: auto;
 }
 
 .pointer-container {
-  height: 100%;
-  display: block;
+    height: 100%;
+    display: block;
 }
