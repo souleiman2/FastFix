@@ -13,6 +13,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { PortraitCardComponent } from './Components/portrait-card/portrait-card.component';
 import { CustomCarouselComponent } from './Components/custom-carousel/custom-carousel.component';
 import { ProfilComponent } from './Components/profil/profil.component';
+import { ListingsComponent } from './Components/listings/listings.component';
 
 @NgModule({
     declarations: [
@@ -25,7 +26,8 @@ import { ProfilComponent } from './Components/profil/profil.component';
         AboutComponent,
         PortraitCardComponent,
         CustomCarouselComponent,
-        ProfilComponent
+        ProfilComponent,
+        ListingsComponent
     ],
     imports: [
         BrowserModule,

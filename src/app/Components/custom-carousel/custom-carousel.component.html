@@ -3,14 +3,14 @@
         <div class="carousel-item active">
             <div class="row">
                 <div class="col container" *ngFor="let card of this.initData">
-                    <app-portrait-card [card]="card"></app-portrait-card>
+                    <app-portrait-card [card]="card" routerLink="listings"></app-portrait-card>
                 </div>
             </div>
         </div>
         <div class="carousel-item" *ngFor="let cards of this.segregatedData">
             <div class="row">
                 <div class="col container" *ngFor="let card of cards">
-                    <app-portrait-card [card]="card"></app-portrait-card>
+                    <app-portrait-card [card]="card" routerLink="listings"></app-portrait-card>
                 </div>
             </div>
         </div>

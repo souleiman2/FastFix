@@ -6,6 +6,7 @@ import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { AboutComponent } from './Components/about/about.component';
 import { ProfilComponent } from './Components/profil/profil.component';
+import { ListingsComponent } from './Components/listings/listings.component';
 
 const routes: Routes = [
     
@@ -27,6 +28,9 @@ const routes: Routes = [
     },{
         path : 'profile',
         component : ProfilComponent
+    },{
+        path : 'listings',
+        component : ListingsComponent
     }
 ];
 
