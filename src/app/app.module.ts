@@ -14,6 +14,7 @@ import { PortraitCardComponent } from './Components/portrait-card/portrait-card.
 import { CustomCarouselComponent } from './Components/custom-carousel/custom-carousel.component';
 import { ProfilComponent } from './Components/profil/profil.component';
 import { ListingsComponent } from './Components/listings/listings.component';
+import { ListingCardComponent } from './Components/listing-card/listing-card.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { ListingsComponent } from './Components/listings/listings.component';
         PortraitCardComponent,
         CustomCarouselComponent,
         ProfilComponent,
-        ListingsComponent
+        ListingsComponent,
+        ListingCardComponent
     ],
     imports: [
         BrowserModule,

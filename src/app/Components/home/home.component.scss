@@ -21,19 +21,13 @@ div.toolbar{
 app-toolbar{
     margin : 0;
 }
+
 div.section{
     padding : 10%;
     padding-top: 15%;
     padding-right: 40%;
 }
 
-/*
-div.section {
-    position: relative;
-    margin: 10%;
-    margin-top: 15%;
-    margin-right: 40%;
-}*/
 
 div * {
     color: black;
@@ -49,6 +43,9 @@ h1 {
     height: 500px;
     position: relative;
     width : 100%;
+    padding-left : 30px;
+    padding-right : 30px;
+    
 
     margin-top : 50px;
     margin-bottom : 50px;

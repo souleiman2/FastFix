@@ -7,7 +7,52 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListingsComponent implements OnInit {
 
+
+  temp : Array<object> = [{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  }, {
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  }, {
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  },{
+    urlPic : "assets/bathroom",
+    description : "Seamlessly visualize quality",
+  }]
+
   constructor() { }
+  
+
+
 
   ngOnInit(): void {
   }
