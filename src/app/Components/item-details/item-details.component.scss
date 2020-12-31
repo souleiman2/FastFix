@@ -1,0 +1,95 @@
+.padder {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+.mainContainer {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentContainer{
+  width : 70%;
+
+  h2, h3{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+
+aside {
+  box-shadow: 0 0 8px rgb(212,217,226);
+  top: 80px;
+  width: 25%;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  position : sticky;
+  display: block;
+  background-color: #f7f5ec;
+  text-align: center;
+  padding-bottom : 20px;
+
+  button{
+    width : 90%;
+    background-color: #24292e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    border-radius: 5px;
+  }
+  img:hover, button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+}
+
+.square {
+  position: relative;
+  width: 40%;
+  margin-left : auto;
+  margin-right : auto;
+  margin-top : 30px;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  img{
+    display: block;
+    border-radius: 50%;
+  }
+}
+
+.userInfo{
+  margin-top : 30px;
+
+}
+
+@media screen and (min-width: 1300px) {
+  .mainContainer{
+    width : 1200px;
+  }
+}

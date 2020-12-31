@@ -15,6 +15,7 @@ import { CustomCarouselComponent } from './Components/custom-carousel/custom-car
 import { ProfilComponent } from './Components/profil/profil.component';
 import { ListingsComponent } from './Components/listings/listings.component';
 import { ListingCardComponent } from './Components/listing-card/listing-card.component';
+import { ItemDetailsComponent } from './Components/item-details/item-details.component';
 
 @NgModule({
     declarations: [
@@ -29,7 +30,8 @@ import { ListingCardComponent } from './Components/listing-card/listing-card.com
         CustomCarouselComponent,
         ProfilComponent,
         ListingsComponent,
-        ListingCardComponent
+        ListingCardComponent,
+        ItemDetailsComponent
     ],
     imports: [
         BrowserModule,
