@@ -16,6 +16,7 @@ import { ProfilComponent } from './Components/profil/profil.component';
 import { ListingsComponent } from './Components/listings/listings.component';
 import { ListingCardComponent } from './Components/listing-card/listing-card.component';
 import { ItemDetailsComponent } from './Components/item-details/item-details.component';
+import { ReviewsComponent } from './Components/reviews/reviews.component';
 
 @NgModule({
     declarations: [
@@ -31,7 +32,8 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
         ProfilComponent,
         ListingsComponent,
         ListingCardComponent,
-        ItemDetailsComponent
+        ItemDetailsComponent,
+        ReviewsComponent
     ],
     imports: [
         BrowserModule,

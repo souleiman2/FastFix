@@ -1,6 +1,7 @@
 $toolbarHeight: 60px;
 
 div.panel1 {
+    
     //display: block;
     //position: fixed;
     background-image: url("../../../assets/test.jpg");
@@ -15,38 +16,55 @@ div.panel1 {
 
 
 div.toolbar{
+    
     height : $toolbarHeight;
 }
 
 app-toolbar{
+    
     margin : 0;
 }
 
 div.section{
+    
     padding : 10%;
     padding-top: 15%;
     padding-right: 40%;
 }
 
-
 div * {
+    
     color: black;
 }
 
 h1 {
+    
     margin : 0px;
     padding : 0.67em;
 }
 
 .popularChoices {
+    
     max-height: 500px;
     height: 500px;
     position: relative;
     width : 100%;
-    padding-left : 30px;
-    padding-right : 30px;
-    
+    padding: 0 30px;
+    margin: 50px 0;
+}
 
-    margin-top : 50px;
-    margin-bottom : 50px;
+.reviews {
+    
+    max-height: 500px;
+    height: 500px;
+    position: relative;
+    width : 100%;
+    padding: 0 30px;
+    margin: 50px 0;
+    background-color: black;
+}
+
+.reviews * {
+    
+    color: white;
 }
