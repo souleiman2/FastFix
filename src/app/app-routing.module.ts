@@ -8,6 +8,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { ProfilComponent } from './Components/profil/profil.component';
 import { ListingsComponent } from './Components/listings/listings.component';
 import { ItemDetailsComponent } from './Components/item-details/item-details.component';
+import { ChooseTypeSellerComponent } from './Components/choose-type-seller/choose-type-seller.component';
 
 const routes: Routes = [
     
@@ -35,6 +36,9 @@ const routes: Routes = [
     },{
         path : 'details',
         component : ItemDetailsComponent
+    },{
+        path : 'choosingTypeSeller',
+        component : ChooseTypeSellerComponent
     }
 ];
 

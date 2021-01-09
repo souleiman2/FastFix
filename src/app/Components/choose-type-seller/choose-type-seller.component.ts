@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PORT_CARDS } from 'src/app/Interface/typesWorker';
 
 @Component({
   selector: 'app-choose-type-seller',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./choose-type-seller.component.scss']
 })
 export class ChooseTypeSellerComponent implements OnInit {
+
+  readonly cards = PORT_CARDS;
 
   constructor() { }
 
