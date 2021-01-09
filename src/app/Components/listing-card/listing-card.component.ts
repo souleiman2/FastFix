@@ -17,4 +17,5 @@ export class ListingCardComponent implements OnInit {
     this.router.navigate(["details"])
   }
 
+
 }
