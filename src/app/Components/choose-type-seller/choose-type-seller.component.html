@@ -1,0 +1,21 @@
+<app-toolbar></app-toolbar>
+
+<div class="padder">
+    <div class="mainContainer">
+        <!-- Upper profile pic -->
+        <h1>Choose your expertise</h1>
+
+        <div style="padding: 7px;">
+            <img *ngFor="let card of cards" class="imageSeller" src={{card.img_src}} alt="typeSeller">
+            <div class="center">
+                <button class="button">Submit</button>
+            </div>
+        </div>
+
+        
+
+        
+
+    </div>
+</div>
+

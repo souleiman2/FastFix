@@ -17,6 +17,7 @@ import { ListingsComponent } from './Components/listings/listings.component';
 import { ListingCardComponent } from './Components/listing-card/listing-card.component';
 import { ItemDetailsComponent } from './Components/item-details/item-details.component';
 import { ReviewsComponent } from './Components/reviews/reviews.component';
+import { ChooseTypeSellerComponent } from './Components/choose-type-seller/choose-type-seller.component';
 
 @NgModule({
     declarations: [
@@ -33,7 +34,8 @@ import { ReviewsComponent } from './Components/reviews/reviews.component';
         ListingsComponent,
         ListingCardComponent,
         ItemDetailsComponent,
-        ReviewsComponent
+        ReviewsComponent,
+        ChooseTypeSellerComponent
     ],
     imports: [
         BrowserModule,
