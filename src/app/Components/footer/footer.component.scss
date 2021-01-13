@@ -1,25 +1,20 @@
-.footerContainer{
-    min-height : 300px;
-    margin-top : 40px;
+@import 'src/colors';
+
+i {
+  font-size: xx-large;
 }
-i{
-    font-size: xx-large;
-}
-i:hover{
-    cursor: pointer;
-}
-h3{
-    text-align: center;
+i:hover {
+  cursor: pointer;
 }
 
-.footer-area{
-    background-color: #161515;
-    color : whitesmoke;
+.footer-area {
+  background-color: $color-black;
+  color: whitesmoke;
 }
 .footer-area .social li {
-    display: inline-block;
-    margin: 0 5px;
+  display: inline-block;
+  margin: 0 5px;
 }
-ul{
-    padding : 0;
+ul {
+  padding: 0;
 }
