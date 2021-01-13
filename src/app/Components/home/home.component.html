@@ -1,22 +1,47 @@
 <div class="toolbar">
-<app-toolbar></app-toolbar>
+  <app-toolbar></app-toolbar>
 </div>
 <div class="panel1">
-    <div class="section">
-        <h1>Buy, sell and rent scamfully.</h1>
-        <h2>
-            FastFix is a classified ads site accessible through scamming.
-            It's free and guaranteed to be scam-free for us.
-        </h2>
-    </div>
+  <div class="section">
+    <h1>Buy, sell and rent scamfully.</h1>
+    <h2>
+      FastFix is a classified ads site accessible through scamming. It's free
+      and guaranteed to be scam-free for us.
+    </h2>
+  </div>
 </div>
 
 <div class="popularChoices">
-    <h1>Popular Choices</h1>
-    <app-custom-carousel [allData]="this.cards"></app-custom-carousel>
+  <h1>Popular Choices</h1>
+  <app-custom-carousel [allData]="this.cards"></app-custom-carousel>
 </div>
 
 <div class="reviews">
-    <h1>Some of our reviews</h1>
-    <app-reviews></app-reviews>
+<div class="objectifContainer">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-xl-5 col-lg-6">
+        <h4>some reviews</h4>
+        <h2>Welcome to FastFix</h2>
+        <h5 style="margin-bottom: 5px;">Our goal is to bring together handy people as well as people that wish for some help in a construction project</h5>
+        <br>
+        <p>Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non. Tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+    </div>
+      <div class="col-lg-6">
+        <div class="testimonial-right-content mt-50">
+          <img
+            src="assets/tools.jpg"
+            alt="" height="100%" width="100%"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+</div>
+
+
+<div class="parallax"></div>
+<!-- Our goal -->
+
+<app-footer></app-footer>

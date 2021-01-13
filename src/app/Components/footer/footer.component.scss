@@ -2,7 +2,24 @@
     min-height : 300px;
     margin-top : 40px;
 }
-
+i{
+    font-size: xx-large;
+}
+i:hover{
+    cursor: pointer;
+}
 h3{
     text-align: center;
+}
+
+.footer-area{
+    background-color: #161515;
+    color : whitesmoke;
+}
+.footer-area .social li {
+    display: inline-block;
+    margin: 0 5px;
+}
+ul{
+    padding : 0;
 }

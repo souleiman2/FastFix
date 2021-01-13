@@ -1,66 +1,74 @@
 $toolbarHeight: 60px;
 
 div.panel1 {
-    
-    //display: block;
-    //position: fixed;
-    background-image: url("../../../assets/test.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    //height: 100%;
-    height : calc(100vh - #{$toolbarHeight});
+  background-image: url("../../../assets/test.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - #{$toolbarHeight});
 }
 
-
-
-div.toolbar{
-    
-    height : $toolbarHeight;
+div.toolbar {
+  height: $toolbarHeight;
 }
 
-app-toolbar{
-    
-    margin : 0;
+app-toolbar {
+  margin: 0;
 }
 
-div.section{
-    
-    padding : 10%;
-    padding-top: 15%;
-    padding-right: 40%;
+div.section {
+  padding: 10%;
+  padding-top: 15%;
+  padding-right: 40%;
 }
 
 div * {
-    
-    color: black;
+  color: black;
 }
 
 h1 {
-    
-    margin : 0px;
-    padding : 0.67em;
+  margin: 0px;
+  padding: 0.67em;
 }
 
-.popularChoices, .reviews {
-    position: relative;
-    width : 100%;
-    padding: 0 30px;
-    margin: 50px 0;
+.popularChoices,
+.reviews {
+  position: relative;
+  width: 100%;
 }
 
-.popularChoices{
-    max-height: 500px;
-    height: 500px;
+.popularChoices {
+  max-height: 500px;
+  height: 500px;
+  margin: 50px 0;
 }
 
 .reviews {
-    
-    background-color: black;
+    padding-top: 80px;
+  padding-bottom: 130px;
+  background-color: #121212;;
 }
 
 .reviews * {
-    
-    color: white;
+  color: white;
+}
+
+// .objectifContainer {
+  
+//   background-color: #f4f6f7;
+// }
+
+.parallax {
+  /* The image used */
+  background-image: url("/assets/nice_room.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
