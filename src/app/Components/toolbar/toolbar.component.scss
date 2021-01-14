@@ -21,11 +21,15 @@ a {
     color : white;
     text-decoration: none;
     text-align: center;
-    padding-top: 14px;
-    padding-right: 16px;
-    padding-bottom: 14px;
-    padding-left: 16px;
     background-color: transparent;
+}
+
+a.fullHeight{
+    height : 100%;
+}
+
+.tabs a{
+    padding: 14px 16px;
 }
 
 

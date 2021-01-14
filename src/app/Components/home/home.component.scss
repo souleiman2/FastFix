@@ -8,6 +8,7 @@ div.panel1 {
   background-repeat: no-repeat;
   width: 100%;
   height: calc(100vh - #{$toolbar-height});
+  min-height : 500px;
 }
 
 div.toolbar {
