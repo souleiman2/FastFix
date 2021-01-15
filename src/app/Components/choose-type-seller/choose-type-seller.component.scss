@@ -52,7 +52,7 @@
   position: relative;
   text-align: center;
   color: white;
-
+  
   h1{
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -85,10 +85,6 @@
   background-color: green;
   img{
     opacity: 0;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
   }
   h1{
     display: block;
