@@ -9,10 +9,15 @@ import { PORT_CARDS } from 'src/app/Interface/typesWorker';
 export class ChooseTypeSellerComponent implements OnInit {
 
   readonly cards = PORT_CARDS;
+  clicked : Array<boolean> = Array(this.cards.length).fill(false);
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  select(index : number) : void{
+    this.clicked[index] = !this.clicked[index];
   }
 
 }

@@ -5,16 +5,20 @@
         <!-- Upper profile pic -->
         <h1>Choose your expertise</h1>
 
-        <div style="padding: 7px;">
-            <img *ngFor="let card of cards" class="imageSeller" src={{card.img_src}} alt="typeSeller">
-            <div class="center">
-                <button class="button">Submit</button>
+        <div class="grid">
+            <div class="card" *ngFor="let elem of cards; index as i">
+                <div [ngClass]="this.clicked[i] ? 'active_card' : 'unactive_card'" (click)="this.select(i)">
+                    <img src={{elem.img_src}} alt="" height="100%" width="100%" >
+                    <h1 class="centered">{{elem.title}}</h1>
+                </div>
             </div>
+            
         </div>
 
-        
+        <div class="center">
+            <button routerLink="../profile" class="button">Submit</button>
+        </div>
 
-        
 
     </div>
 </div>

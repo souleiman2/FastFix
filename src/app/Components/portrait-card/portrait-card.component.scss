@@ -12,3 +12,10 @@ img {
     margin-bottom: 2px;
     font-size: 1em;
 }
+
+p:hover {
+    opacity: 1;
+}
+img:hover {
+    opacity: 0.5;
+}

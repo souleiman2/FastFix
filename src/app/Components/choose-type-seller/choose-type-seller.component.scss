@@ -1,3 +1,12 @@
+.grid{
+  padding-left : 15px;
+  padding-right : 15px;
+  padding-top : 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
 
 
 .padder{
@@ -29,8 +38,67 @@
   margin: 4px auto;
   cursor: pointer;
 }
+
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.active_card, .unactive_card{
+  height : 100%;
+  width : 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+
+  h1{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
+}
+
+
+.unactive_card h1{
+  display: none;
+}
+
+.unactive_card:hover{
+  background-color: black;
+  
+  img{
+    opacity: 0.4;
+  }
+  h1{
+    display: block;
+  }
+}
+
+
+.active_card{
+  background-color: green;
+  img{
+    opacity: 0;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+  }
+  h1{
+    display: block;
+  }
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

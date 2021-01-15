@@ -4,6 +4,7 @@
     height: 350px;
     padding: 0;
     margin: 5px;
+    background-color: black;
 }
 
 .row {
@@ -14,7 +15,6 @@ $circle-radius : 60px;
 
 app-portrait-card:hover{
     cursor: pointer;
-    opacity: 0.7;
 }
 
 .arrowContainer {
