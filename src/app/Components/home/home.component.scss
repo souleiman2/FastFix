@@ -9,7 +9,7 @@ div.panel1 {
 }
 
 div.background{
-  background-image: url("../../../assets/test.jpg");
+  background-image: url(/assets/test.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ h1 {
 
 .parallax {
   /* The image used */
-  background-image: url("/assets/nice_room.jpg");
+  background-image: url(/assets/nice_room.jpg);
 
   /* Set a specific height */
   min-height: 500px;
