@@ -2,7 +2,7 @@
   <app-toolbar></app-toolbar>
 </div>
 <div class="panel1">
-  <div class="background">
+  <div class="background" [ngStyle]="{'background-image': 'url(assets/test.jpg)'}">
     <div class="section">
       <h1>Buy, sell and rent scamfully.</h1>
       <h2>
@@ -48,7 +48,7 @@
   <app-custom-carousel [allData]="this.cards"></app-custom-carousel>
 </div>
 
-<div class="parallax"></div>
+<div class="parallax" [ngStyle]="{'background-image': 'url(assets/nice_room.jpg)'}"></div>
 <!-- Our goal -->
 
 

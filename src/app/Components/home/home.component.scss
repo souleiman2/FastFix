@@ -9,7 +9,6 @@ div.panel1 {
 }
 
 div.background{
-  background-image: url(/assets/test.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,15 +61,7 @@ h1 {
   color: white;
 }
 
-// .objectifContainer {
-  
-//   background-color: #f4f6f7;
-// }
-
 .parallax {
-  /* The image used */
-  background-image: url(/assets/nice_room.jpg);
-
   /* Set a specific height */
   min-height: 500px;
 
