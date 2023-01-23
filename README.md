@@ -1,6 +1,9 @@
 # FastFix
 
-This project offers a platform for people to find handypeople that would be glad to help you renovate your home. 
+### This project offers a platform for people to find handypeople that would be glad to help you renovate your home.
+
+
+Version : This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
 ## Development server
 
