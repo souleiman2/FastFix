@@ -1,6 +1,6 @@
 # FastFix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+This project offers a platform for people to find handypeople that would be glad to help you renovate your home. 
 
 ## Development server
 
@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Note to myself
+
+Run the following commands to deploy to the project link (https://souleiman2.github.io/FastFix/): 
+
+ng build --prod --base-href https://souleiman2.github.io/FastFix/
+npx ngh --dir=dist/FastFix
